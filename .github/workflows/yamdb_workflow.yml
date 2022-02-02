@@ -1,12 +1,7 @@
 # .github/workflows/**yamdb_workflow.yml**
-name: yamdb_workflow
+name: Yamdb workflow
 
-on:
-  push:
-    branches:
-    - main
-    paths-ignore:
-    - '**/README.md'
+on: [push]
 
 jobs:
   tests:
