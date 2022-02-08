@@ -1,4 +1,4 @@
-# yamdb_final ![YaMDb Status](![YaMDb Status](https://github.com/arswift/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+# yamdb_final ![YaMDb Status](https://github.com/arswift/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
 ## REST API for YaMDb service - site of reviews about films, books and music.
 
@@ -40,7 +40,7 @@
 - Запустите docker-compose командой `docker-compose up`
 - Накатите миграции `docker-compose exec yamdb python manage.py migrate`
 - Соберите статику командой `sudo docker-compose exec yamdb python manage.py collectstatic --no-input`
-- Создайте суперпользователя Django `docker-compose exec yamdb python manage.py createsuperuser --username admin --email 'admin@yamdb.com'`
+- Создайте суперпользователя Django `docker-compose exec yamdb python manage.py createsuperuser --username admin --email 'admins@admin.admin'`
 - Загрузите данные в базу данных при необходимости `docker-compose exec web python manage.py loaddata fixtures.json`
 
 ## Установка на удалённом сервере
@@ -114,7 +114,7 @@ python manage.py loaddata infra/fixtures.json
 ```
 Теперь проекту доступна статика. В админке Django (http://<server_address>/admin)
 доступно управление данными. Если загрузить фикстуры, то будет доступен superuser:
-* email: admin@admin@fake
+* email: admin@admin.fake
 * password: admin
 
 Для создания нового суперпользователя можно выполнить команду:
