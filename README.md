@@ -1,4 +1,4 @@
-# yamdb_final ![YaMDb Status](![YaMDb Status](https://github.com/arswift/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+# yamdb_final !(https://github.com/arswift/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
 ## REST API for YaMDb service - site of reviews about films, books and music.
 
