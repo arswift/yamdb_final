@@ -110,12 +110,12 @@ python3 manage.py shell
 >>> from django.contrib.contenttypes.models import ContentType
 >>> ContentType.objects.all().delete()
 >>> quit()
-python manage.py loaddata fixtures.json
+python manage.py loaddata infra/fixtures.json
 ```
 Теперь проекту доступна статика. В админке Django (http://<server_address>/admin)
 доступно управление данными. Если загрузить фикстуры, то будет доступен superuser:
-* email: admin5@admin5
-* password: admin512345
+* email: admin@admin@fake
+* password: admin
 
 Для создания нового суперпользователя можно выполнить команду:
 ```
