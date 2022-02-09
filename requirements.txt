@@ -6,7 +6,7 @@ chardet==4.0.0
 colorama==0.4.4
 defusedxml==0.7.1
 diff-match-patch==20200713
-Django==3.2.4
+Django==3.2.11
 django-cors-headers==3.8.0
 django-filter==2.4.0
 django-import-export==2.5.0
